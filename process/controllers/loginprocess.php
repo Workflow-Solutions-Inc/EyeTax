@@ -9,6 +9,12 @@ session_start();
 	$password = $_POST["password"];
 	if(($username=="admin")&&($password=="admin")){
 		header('location: ../../Main.php');
+	}
+	else if(($username=="jabogado")&&($password=="adminjabogado")){
+		header('location: ../../Main.php');
+	}
+	else if(($username=="raymond")&&($password=="adminraymond")){
+		header('location: ../../Main.php');
 	}else{
 		?>
 			<script type="text/javascript">
