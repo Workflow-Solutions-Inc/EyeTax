@@ -1,6 +1,6 @@
 <?php
 
-	$base_path = "http://localhost/eyetax2.0/";
+	$base_path = "https://test-moneycat-eyetax.sypro-it.com/";
 	
 	//$base_path = "";
 
