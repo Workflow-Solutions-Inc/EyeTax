@@ -1,8 +1,8 @@
 <?php
 
-	$callback = "http://localhost/Eyetax2.0/process/controllers/callback.php";
-	$clientid = "F275184048314967B18745F644541F77";
-	$clientsecret = "eoBpAZStRRWcBcGen-h2pT0lQEpoqFL6pWJ6GVpGRoVuM1w4";
+	$callback = "https://test-moneycat-eyetax.sypro-it.com/process/controllers/callback.php";
+	$clientid = "0C9451D86618432994D37A8DA4F80FFF";
+	$clientsecret = "nr3JlfYQHR3SZpOzB6jC5c72qPiL3pwh8MuOIhjUsdHLquk1";
 	
 	//$base_path = "";
 
