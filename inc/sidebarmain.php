@@ -1,6 +1,13 @@
 <?php  
+session_start();
 require_once('inc/basepath.php');
-$curPageName = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1); 
+$curPageName = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+
+if(isset($_SESSION['userid'])){
+    
+}else{
+    header('Location: login.php');
+}
 ?>
 <!doctype html>
 <html lang="en">
