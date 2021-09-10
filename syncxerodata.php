@@ -262,7 +262,6 @@ include('inc/header.php');
                         document.getElementById("invbtn").innerHTML = '<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Loading';
                         disablebuttons();
                     },
-                    alert(data);
                     success: function(data){
                         if(data==1){
                             notifysuccess();
