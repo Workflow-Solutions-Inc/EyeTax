@@ -30,6 +30,7 @@ $result = $conn->query($query);
 while ($row = $result->fetch_assoc()) 
 { 
 	$checker = 1;
+	$_SESSION['userid'] = $_POST["username"];
 	header('location: ../../Main.php');
 }
 
