@@ -7,10 +7,10 @@ $orgid = "";
 if(isset($_SESSION["organisationID"])){
     $orgid = $_SESSION["organisationID"];
 }
-/*$frmdate = $_GET['frmdate'];
-$todate = $_GET['todate'];*/
-$frmdate = '2021-06-28';
-$todate = '2021-06-30';
+$frmdate = $_GET['frmdate'];
+$todate = $_GET['todate'];
+// $frmdate = '2021-06-28';
+// $todate = '2021-06-30';
 
 
 
